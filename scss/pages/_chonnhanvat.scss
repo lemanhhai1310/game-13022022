@@ -1,0 +1,20 @@
+.chonnhanvat{
+  &__top{
+    background-color: #bb9fd8;
+    &__boxImg{
+      min-height: 166px;
+    }
+    &__img{
+
+    }
+    &__txt{
+      height: 25px;
+    }
+  }
+  &__bottom{
+    background-color: #7d41bd;
+    &__btn{
+      @include fluidx(250px,200px,width);
+    }
+  }
+}

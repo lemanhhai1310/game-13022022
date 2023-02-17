@@ -962,4 +962,30 @@ body {
   margin-top: 8px;
 }
 
+.chonnhanvat__top {
+  background-color: #bb9fd8;
+}
+.chonnhanvat__top__boxImg {
+  min-height: 166px;
+}
+.chonnhanvat__top__txt {
+  height: 25px;
+}
+.chonnhanvat__bottom {
+  background-color: #7d41bd;
+}
+.chonnhanvat__bottom__btn {
+  width: 200px !important;
+}
+@media screen and (min-width: 640px) {
+  .chonnhanvat__bottom__btn {
+    width: calc(200px + 50 * ((100vw - 640px) / 560)) !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .chonnhanvat__bottom__btn {
+    width: 250px !important;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
